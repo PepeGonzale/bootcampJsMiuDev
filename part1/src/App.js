@@ -1,6 +1,7 @@
 
 import './App.css';
 import Mensaje from './Mensaje';
+import Probar from './Prueba';
 //Asi se crean los componentes, siempre empiezan por mayuscula para no condunfir con elementos de html. 
 const App  = () => {
   return (
@@ -10,6 +11,7 @@ const App  = () => {
       <App2/>  
       <Mensaje color = 'red' message = 'Estamos trabajando '/>
       <Mensaje color = 'green' message = 'en un curso de React'/>
+      <Probar color = 'blue' mensaje = 'PROBANDO EL ESTADO DEL COMPONENTE EN REACT'/>
     </div>   
   );
 }
