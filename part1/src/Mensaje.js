@@ -1,10 +1,8 @@
-const Mensaje = (params) =>{
+const Mensaje = () =>{
    
     return(
         
-        <h1 style={{color: params.color}}>
-            {params.message}
-            </h1>
+        console.log('Pepe')
     )
 }
 export default Mensaje;
